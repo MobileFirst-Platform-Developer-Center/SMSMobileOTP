@@ -83,16 +83,13 @@ export class LoginPage {
     WLAuthorizationManager.login(this.securityCheck, credentials).then(
       () => {
         console.log('-->  Phone Number Login: Success ');
-          //   this.result = "Phone Number Successfully verifed";
           this.router.navigate(['/home']);
           this.utils.dismissLoading()
       },
       (error) => {
         console.log('--> Phone Number Login:  ERROR ', JSON.stringify(error));
         this.utils.dismissLoading().then(() => {
-          if (error.responseText.includes("cancelled")) {
-            this.utils.showAlert("Login Failure", "Invalid Phone Number/OTP")
-          } else {
+          if (!error.responseText.includes("cancelled")) {
             this.utils.showAlert("Login Failure", error.responseText)
           }
           form.reset();
