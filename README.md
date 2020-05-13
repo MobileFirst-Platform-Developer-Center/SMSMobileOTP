@@ -25,7 +25,7 @@ A sample Ionic 5.x and iOS Swift application demonstrating the Mobile Authentica
   * From the Adapters menu click on *SMS OTP Adapter* and navigate to *Security Checks* tab.
   * Here you will find place to add *Twilio API SID*, *Twilio API Token* and *From phone Number*.
   * These API Credentials and Phone number can be retreived from [Twilio Console](https://www.twilio.com/console)
-  * ![Adapter Configuration](adapterConfiguration.png)
+  * ![Adapter Configuration](adapterConfiguration.jpg)
 
 
 ### Usage
