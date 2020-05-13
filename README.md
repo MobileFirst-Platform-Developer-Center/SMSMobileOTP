@@ -10,13 +10,13 @@ A sample Ionic 5.x and iOS Swift application demonstrating the Mobile Authentica
 ### Prerequisites
 1. Understanding the IBM MobileFirst Foundation [Authentication and Security](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/authentication-and-security/).
 2. Understanding the IBM MobileFirst Foundation [Java Adapters](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/adapters/java-adapters/).
-3. Pre-installed IBM MobileFirst Foundation [development environment](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/setting-up-your-development-environment/) or running instance of [Mobile Foundation on Bluemix](https://console.ng.bluemix.net/catalog/services/mobile-foundation/).
+3. Pre-installed IBM MobileFirst Foundation [development environment](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/setting-up-your-development-environment/)
 4. Understanding the [Twilio Service](https://www.twilio.com/docs/usage/api#authenticate-with-http)
 
 
 ### Configuring the Adapter
 
-- Deploy ([SMSOTP Adapter](./SmsOTPAdapter) by running following commands in the project's root directory using command line:
+- Deploy [SMSOTP Adapter](./SmsOTPAdapter) by running following commands in the project's root directory using command line:
     * Run `cd SmsOTPAdapter`
     * Run `mfpdev adapter build`
     * Run `mfpdev adapter deploy`
