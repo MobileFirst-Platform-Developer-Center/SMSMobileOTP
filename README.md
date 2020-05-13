@@ -23,7 +23,7 @@ A sample Ionic 5.x and iOS Swift application demonstrating the Mobile Authentica
 
 - From your command line run `mfpdev server console` - this command will open your server console.
   * From the Adapters menu click on *SMS OTP Adapter* and navigate to *Security Checks* tab.
-  * Here you will find place to add *From phone Number*, *Twilio API SID*  and * Twilio API Token*
+  * Here you will find place to add *Twilio API SID*, *Twilio API Token* and *From phone Number*.
   * These API Credentials and Phone number can be retreived from [Twilio Console](https://www.twilio.com/console)
   * ![Adapter Configuration](adapterConfiguration.png)
 
@@ -50,8 +50,8 @@ A sample Ionic 5.x and iOS Swift application demonstrating the Mobile Authentica
 2. Run the application in the iOS Simulator or physical device. Register & Login to the application with your personal mobile phone number.
 
 ## Version
-Ionic 5.1.0
-Swift 5.0
+- Ionic 5.1.0
+- Swift 5.0
 
 ## Supported Versions
 IBM MobileFirst Foundation 8.0
