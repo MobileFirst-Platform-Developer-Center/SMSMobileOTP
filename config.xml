@@ -3,7 +3,7 @@
     <name>MobileOTPIonic</name>
     <description>MFP app which demonstrates the use of Twilio OTP login in IBM MobileFirst Platform Foundation.</description>
     <author email="vittalpai@in.ibm.com" href="http://ibm.com/">Vittal R Pai</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://localhost:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -141,9 +141,10 @@
     </mfp:windows>
     <mfp:platformVersion>8.0.0.00-20200322-152731</mfp:platformVersion>
     <mfp:clientCustomInit enabled="false" />
-    <mfp:server runtime="mfp" url="http://10.0.0.1:9080" />
+    <mfp:server runtime="mfp" url="http://192.168.43.107:9080" />
     <mfp:serverUri url="" />
     <mfp:directUpdateAuthenticityPublicKey />
     <mfp:languagePreferences>en</mfp:languagePreferences>
     <mfp:APIproxyURL>/adapters/MobileAPIProxy</mfp:APIproxyURL>
+    <allow-navigation href="http://localhost:8100" sessionid="52caf0ea" />
 </widget>

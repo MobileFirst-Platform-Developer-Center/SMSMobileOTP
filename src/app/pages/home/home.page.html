@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+    <ion-buttons slot="primary">
+      <ion-button (click)="logout()">Logout</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+    <img src="/assets/images/ibm.jpg" alt=""/>
+    <ion-card-header>
+      <ion-card-subtitle>Get Started</ion-card-subtitle>
+      <ion-card-title>Welcome to IBM MobileFirst</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        IBM Mobile Foundation provides simple, scalable, time-tested enterprise
+        mobile middleware, deployable on premises or on Cloud. 
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list lines="none">
+    <ion-list-header>
+      <ion-label>Resources</ion-label>
+    </ion-list-header>
+    <ion-item (click)="callAdapter()">
+      <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
+      <ion-label>Invoke protected Adapter</ion-label>
+    </ion-item>
+    <ion-item href="https://mobilefirstplatform.ibmcloud.com/">
+      <ion-icon slot="start" color="medium" name="book"></ion-icon>
+      <ion-label>MobileFirst Documentation</ion-label>
+    </ion-item>
+    <ion-item href="https://mobilefirstplatform.ibmcloud.com/video-gallery/">
+      <ion-icon slot="start" color="medium" name="grid"></ion-icon>
+      <ion-label>Videos</ion-label>
+    </ion-item>
+    <ion-item href="https://github.com/MobileFirst-Platform-Developer-Center">
+      <ion-icon slot="start" color="medium" name="build"></ion-icon>
+      <ion-label>Samples</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
