@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		FC4807912E5201396E5086F487B78703 /* IBMMobileFirstPlatformFoundation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BEDA8261721F69D78D300980C134C4A9 /* Build configuration list for PBXAggregateTarget "IBMMobileFirstPlatformFoundation" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = IBMMobileFirstPlatformFoundation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		8E43597E50DEFDCECE8BABC45CFE4528 /* Pods-SMS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B6CFE68AF8EF1A751891B8F1C472CCC /* Pods-SMS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C66ECF2098FD026256FF41E43CE2E66D /* Pods-SMS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B6A1791BCB8ADA1CBA1FF6F2C1436 /* Pods-SMS-dummy.m */; };
+		C8BA910E3A014416C983AFD900F43FC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B79A82920F486CE29681ACA5D427BCF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC4807912E5201396E5086F487B78703;
+			remoteInfo = IBMMobileFirstPlatformFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0149282508117BC9250BC85E3C9A89E0 /* Pods-SMS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMS-Info.plist"; sourceTree = "<group>"; };
+		18BAF42BA9E5F203331D8F0AD2A05314 /* Pods-SMS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMS-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B6CFE68AF8EF1A751891B8F1C472CCC /* Pods-SMS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMS-umbrella.h"; sourceTree = "<group>"; };
+		2E937F180920CCD9EC7CED19DA47A61E /* Pods-SMS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS-frameworks.sh"; sourceTree = "<group>"; };
+		2FE449E0363521249EC145A42C923ACC /* Pods-SMS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		369DC7385FE6E2AEE288B3A8A43FD730 /* Pods-SMS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS-resources.sh"; sourceTree = "<group>"; };
+		454B9A19FE1D1274371E76A5DBE8245A /* Pods_SMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMS.framework; path = "Pods-SMS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D477D480809C49AEC3848C8EE740AE9 /* Pods-SMS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMS.modulemap"; sourceTree = "<group>"; };
+		77479B5A63DE96C5EFDB723E614898FD /* Localizations.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Localizations.bundle; path = IBMMobileFirstPlatformFoundation/Resources/Localizations.bundle; sourceTree = "<group>"; };
+		7EF634836DA1137DBBBFAF7EDB6D37B8 /* IBMMobileFirstPlatformFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBMMobileFirstPlatformFoundation.release.xcconfig; sourceTree = "<group>"; };
+		87FF7A7EC9A8056EB6B2331DF4AEB374 /* Pods-SMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABA13ED73B0837306CB003A81122C9B0 /* IBMMobileFoundationSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFoundationSwift.framework; path = IBMMobileFirstPlatformFoundation/Frameworks/IBMMobileFoundationSwift.framework; sourceTree = "<group>"; };
+		C52F22D1CB878421D48E082900A3FD47 /* Pods-SMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS.debug.xcconfig"; sourceTree = "<group>"; };
+		D224ACFAE35E1CEAA82ADD3371E112A0 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFirstPlatformFoundation.framework; path = IBMMobileFirstPlatformFoundation/Frameworks/IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
+		DF73A0B546375955CBC62071C1DBEFF8 /* IBMMobileFirstPlatformFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBMMobileFirstPlatformFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		EF3B6A1791BCB8ADA1CBA1FF6F2C1436 /* Pods-SMS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMS-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A9209D203D06DE62A7737D955DCDBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8BA910E3A014416C983AFD900F43FC5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DBC83E7B603B9C55E9521A328246653 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF73A0B546375955CBC62071C1DBEFF8 /* IBMMobileFirstPlatformFoundation.debug.xcconfig */,
+				7EF634836DA1137DBBBFAF7EDB6D37B8 /* IBMMobileFirstPlatformFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IBMMobileFirstPlatformFoundation";
+			sourceTree = "<group>";
+		};
+		2416411F0522ACE4077B733D1A192379 /* Pods-SMS */ = {
+			isa = PBXGroup;
+			children = (
+				5D477D480809C49AEC3848C8EE740AE9 /* Pods-SMS.modulemap */,
+				2FE449E0363521249EC145A42C923ACC /* Pods-SMS-acknowledgements.markdown */,
+				18BAF42BA9E5F203331D8F0AD2A05314 /* Pods-SMS-acknowledgements.plist */,
+				EF3B6A1791BCB8ADA1CBA1FF6F2C1436 /* Pods-SMS-dummy.m */,
+				2E937F180920CCD9EC7CED19DA47A61E /* Pods-SMS-frameworks.sh */,
+				0149282508117BC9250BC85E3C9A89E0 /* Pods-SMS-Info.plist */,
+				369DC7385FE6E2AEE288B3A8A43FD730 /* Pods-SMS-resources.sh */,
+				2B6CFE68AF8EF1A751891B8F1C472CCC /* Pods-SMS-umbrella.h */,
+				C52F22D1CB878421D48E082900A3FD47 /* Pods-SMS.debug.xcconfig */,
+				87FF7A7EC9A8056EB6B2331DF4AEB374 /* Pods-SMS.release.xcconfig */,
+			);
+			name = "Pods-SMS";
+			path = "Target Support Files/Pods-SMS";
+			sourceTree = "<group>";
+		};
+		7A6CF479F8D9BA61F3C79DC31D3C23B3 /* IBMMobileFirstPlatformFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				BEB76399477127B3B1AF50B6DF7A1320 /* Frameworks */,
+				CF256F8D01F61C2746A858334754CAD5 /* Resources */,
+				1DBC83E7B603B9C55E9521A328246653 /* Support Files */,
+			);
+			name = IBMMobileFirstPlatformFoundation;
+			path = IBMMobileFirstPlatformFoundation;
+			sourceTree = "<group>";
+		};
+		98AA5C915E2A9AE39B5D3BB455CEDF4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A6CF479F8D9BA61F3C79DC31D3C23B3 /* IBMMobileFirstPlatformFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8AB39D7FCB912D097A41D588EB38E7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				454B9A19FE1D1274371E76A5DBE8245A /* Pods_SMS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4D04AC3FB998EF0198DF4EBF5F24BBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2416411F0522ACE4077B733D1A192379 /* Pods-SMS */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BEB76399477127B3B1AF50B6DF7A1320 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D224ACFAE35E1CEAA82ADD3371E112A0 /* IBMMobileFirstPlatformFoundation.framework */,
+				ABA13ED73B0837306CB003A81122C9B0 /* IBMMobileFoundationSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				98AA5C915E2A9AE39B5D3BB455CEDF4D /* Pods */,
+				A8AB39D7FCB912D097A41D588EB38E7D /* Products */,
+				B4D04AC3FB998EF0198DF4EBF5F24BBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF256F8D01F61C2746A858334754CAD5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77479B5A63DE96C5EFDB723E614898FD /* Localizations.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9EFA1F49ADCF97B24616A1F7C7E44B1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E43597E50DEFDCECE8BABC45CFE4528 /* Pods-SMS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		762CCB2869068554E696AB48CB748538 /* Pods-SMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4296F2C8CD2C6DB07B0AB1F01D473AF /* Build configuration list for PBXNativeTarget "Pods-SMS" */;
+			buildPhases = (
+				9EFA1F49ADCF97B24616A1F7C7E44B1C /* Headers */,
+				436E9AEDB7891D1CC69A63500131D5E6 /* Sources */,
+				7A9209D203D06DE62A7737D955DCDBB8 /* Frameworks */,
+				A8B69C71718AA46E0EEB56225F1D0DEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5DD7E09E84E84955F5B6E4C89B780BC /* PBXTargetDependency */,
+			);
+			name = "Pods-SMS";
+			productName = "Pods-SMS";
+			productReference = 454B9A19FE1D1274371E76A5DBE8245A /* Pods_SMS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A8AB39D7FCB912D097A41D588EB38E7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC4807912E5201396E5086F487B78703 /* IBMMobileFirstPlatformFoundation */,
+				762CCB2869068554E696AB48CB748538 /* Pods-SMS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8B69C71718AA46E0EEB56225F1D0DEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		436E9AEDB7891D1CC69A63500131D5E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66ECF2098FD026256FF41E43CE2E66D /* Pods-SMS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5DD7E09E84E84955F5B6E4C89B780BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IBMMobileFirstPlatformFoundation;
+			target = FC4807912E5201396E5086F487B78703 /* IBMMobileFirstPlatformFoundation */;
+			targetProxy = B79A82920F486CE29681ACA5D427BCF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B68D161A685D0E9906DF2B297857921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BDF9206A757CC6435A3C824FDCB27024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF634836DA1137DBBBFAF7EDB6D37B8 /* IBMMobileFirstPlatformFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9566670C062B499CAB75C6F32238A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87FF7A7EC9A8056EB6B2331DF4AEB374 /* Pods-SMS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS/Pods-SMS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS/Pods-SMS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8E21EC6B4010CC7CAC32F77447B9291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52F22D1CB878421D48E082900A3FD47 /* Pods-SMS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS/Pods-SMS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS/Pods-SMS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5D3D0BF744B9700EA072D8A99FA80C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE3DF1A29C8093AD0C4375B8E320D242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF73A0B546375955CBC62071C1DBEFF8 /* IBMMobileFirstPlatformFoundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B68D161A685D0E9906DF2B297857921 /* Debug */,
+				F5D3D0BF744B9700EA072D8A99FA80C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEDA8261721F69D78D300980C134C4A9 /* Build configuration list for PBXAggregateTarget "IBMMobileFirstPlatformFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3DF1A29C8093AD0C4375B8E320D242 /* Debug */,
+				BDF9206A757CC6435A3C824FDCB27024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4296F2C8CD2C6DB07B0AB1F01D473AF /* Build configuration list for PBXNativeTarget "Pods-SMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E21EC6B4010CC7CAC32F77447B9291 /* Debug */,
+				D9566670C062B499CAB75C6F32238A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
